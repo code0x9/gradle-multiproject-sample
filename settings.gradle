@@ -1,0 +1,4 @@
+rootProject.name = 'gradle-multiproject-sample-2'
+include 'sub1'
+include 'sub2'
+
