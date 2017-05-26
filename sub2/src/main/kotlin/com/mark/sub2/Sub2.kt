@@ -1,5 +1,6 @@
 package com.mark.sub2
 
+import org.axonframework.spring.stereotype.Aggregate
 import org.springframework.stereotype.Component
 
 /**
@@ -11,3 +12,6 @@ annotation class CustomAnnotation
 @Component
 @CustomAnnotation
 class TestBeanFromSub1
+
+@Aggregate
+class TestAggregateFromSub1
