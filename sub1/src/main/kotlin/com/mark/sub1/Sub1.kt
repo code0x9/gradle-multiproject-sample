@@ -67,6 +67,7 @@ class TestBean3
 @Aggregate
 class TestAggregate1
 
+@Component
 class TestTargetClass {
     fun add(a: Int, b: Int) = a + b
 }
