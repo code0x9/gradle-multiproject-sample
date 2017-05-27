@@ -67,6 +67,10 @@ class TestBean3
 @Aggregate
 class TestAggregate1
 
+class TestTargetClass {
+    fun add(a: Int, b: Int) = a + b
+}
+
 fun main(args: Array<String>) {
     SpringApplication.run(Sub1Application::class.java, *args)
 }
